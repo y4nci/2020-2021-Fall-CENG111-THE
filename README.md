@@ -1,4 +1,4 @@
-# CENG111-THE
+# 2020-2021-Fall-CENG111-THE
 My solutions for THE2 and THE3 of CENG111 in 2020-2021 Fall Semester.
 
 This repository includes the source codes of THE2 and THE3 and their instructions. 
