@@ -1,5 +1,5 @@
 amount, used, coefficient = [], [], 1
-# Those are some variables that will come into handy in the functions.
+# Those are some variables that will come in handy in the functions.
 
 
 def tree(lst):  
@@ -26,7 +26,7 @@ def tree(lst):
         used.append(index)
 
         # I used "used" (no pun intended) to keep record of the used indexes. Since str.find() would return the
-        # same number over and over again, I needed to tell it that it has been on that index previously to
+        # same number over and over again, I needed to tell it that it had been on that index previously to
         # prevent getting stuck in an infinite loop. Best way to do that was to assign a global variable.
 
         part = original_list[index]
@@ -71,7 +71,7 @@ def required_parts(part_list):  # Here, we will get involved with more global va
         global amount
         global coefficient
 
-        # "coefficient" is quite important here. Each time the tree branches out, it is also multiplied with
+        # "coefficient" is quite important here. Each time the tree branches out, it is also multiplied by
         # a number -sometimes 1- and it definitely has to be considered. We want it to be stable yet easily
         # changeable, so a global variable will do the job for us.
 
